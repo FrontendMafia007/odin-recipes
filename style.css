@@ -1,0 +1,43 @@
+/* Universal selector */
+
+* {
+    background-color: lightpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+/* Type selector */
+h1 {
+    text-align: center;
+}
+/* inherit takes its property from parent element */
+a {
+ color: inherit;  
+}
+
+/* Class selector */
+.Menu {
+    color: red;
+}
+
+/* ID selector: element can only have one ID per-page */
+#main_heading{
+    text-decoration: underline;
+}
+
+.Main_Menu, .Main_Img {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.Main_Img {
+    width: 150px;
+    margin-left: 750px;
+}
+
+.Intro_about_me { text-align: end;
+margin-top: 5px;
+margin-right: 50px;}
+
+.XYZ {
+    color: blue;
+}
